@@ -24,7 +24,7 @@ class TinyCStrParser(Parser):
         ('right', 'QUESTION', 'COLON'),
         ('left', 'LT', 'GT', 'LE', 'GE', 'EQ', 'NE'),
         ('left', 'PLUS', 'MINUS'),
-        ('left', 'TIMES', 'DIVIDE','REMAINDER'),
+        ('left', 'TIMES', 'DIVIDE', 'REMAINDER'),
         ('right', 'UCAST'),
     )
 
